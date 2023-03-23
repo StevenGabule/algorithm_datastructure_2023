@@ -23,7 +23,7 @@ function sortedSquared(array) {
 }
 
 const a = [1, 3, 4, 5];
-const b = [-7, -2, 3, 4, 9];
+const b = [-7, -2, 9, 4, 3];
 const c = [];
 
 console.log(sortedSquared(a));
@@ -53,5 +53,6 @@ function sortedSquaredArray(array) {
 }
 console.log('----------------------------------------------');
 console.log(sortedSquaredArray(a))
-console.log(sortedSquaredArray(b))
+console.log(sortedSquaredArray([-7, -2, 9, 4, 3]))
 console.log(sortedSquaredArray(c))
+console.log(sortedSquaredArray([-6, -1, 0, 5, 10]))
